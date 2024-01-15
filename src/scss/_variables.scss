@@ -851,6 +851,7 @@ $btn-border-radius-sm:        var(--#{$prefix}border-radius-sm);
 $btn-border-radius-lg:        var(--#{$prefix}border-radius-lg);
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+$btn-transition-fancy:        #{$btn-transition + ", transform 1s ease-in-out"};
 
 $btn-hover-bg-shade-amount:       15%;
 $btn-hover-bg-tint-amount:        15%;
