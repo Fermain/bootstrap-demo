@@ -2,6 +2,6 @@
 
 .btn {
   &-unique {
-    @mixin button-variant($primary) {}
+    @include button-variant($primary, $danger)
   }
 }
