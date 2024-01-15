@@ -1,0 +1,7 @@
+@import "variables";
+
+.btn {
+  &-unique {
+    @mixin button-variant($primary) {}
+  }
+}
