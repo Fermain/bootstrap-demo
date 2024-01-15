@@ -16,7 +16,7 @@
     @extend .btn-danger;
 
     &:hover {
-      transform: scale(2) skew(25deg);
+      background-color: lighten($danger, 20%);
     }
   }
 }
