@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-lesson-objectives",
+  "version": "0.0.1",
+  "description": "This is a demo project to show a range of Bootstrap concepts in practical use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/You/YourProject.git"
+  },
+  "keywords": [
+    "Example",
+    "Demo"
+  ],
+  "author": "Oliver Dipple <oliver.dipple@noroff.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/You/YourProject/issues"
+  },
+  "homepage": "https://github.com/You/YourProject#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
